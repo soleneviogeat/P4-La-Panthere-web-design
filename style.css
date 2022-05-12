@@ -1063,4 +1063,18 @@ h2 {
     font-size: 24px;
 }
 
+h3 {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.dark-background {
+    background-color: rgba(82, 75, 57, 0.7);
+}
+
+p {
+    font-size: 15px;
+}
+
 						
