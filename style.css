@@ -1081,4 +1081,10 @@ p {
     font-size: 15px;
 }
 
+select {
+    color: rgb(68, 65, 65);
+    height: 34px;
+    padding: 6px 12px;
+}
+
 						
