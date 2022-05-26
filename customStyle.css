@@ -59,20 +59,25 @@ select {
     color:black!important;
 }
 
+/*Focus*/
+
+.navbar-brand:focus {
+    box-shadow: 2px 2px 10px gray;
+}
+
+.focus:focus {
+    border-bottom: 2px solid #F3976C;
+    color: #F3976C!important;
+}
+
+.d-bloc a:focus .icon-md {
+    color: white;
+}
+
+.focusscroll:focus {
+    background-color: whitesmoke!important;
+}
+
 .btn-atomic-tangerine:focus {
-    box-shadow:inset 2px 2px 8px 2px white;
-    border:2px solid white;
-    color:#FFFFFF!important
-}
-
-nav:focus {
-    color:blue;
-}
-
-.social a:focus {
-    color:white;
-}
-
-#bloc-2-services, .bloc.bgc-white, .l-bloc {
-    color: black;
+    box-shadow: 0 0 0 2px white, 0 0 0 5px #F3976C;
 }
